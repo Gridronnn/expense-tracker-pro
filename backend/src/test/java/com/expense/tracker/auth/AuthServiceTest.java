@@ -71,7 +71,7 @@ class AuthServiceTest {
                 .build();
 
         RefreshToken refreshToken = RefreshToken.builder()
-                .token("mock-refresh-token")
+                .tokenHash("mock-token-hash")
                 .expiryDate(Instant.now().plusSeconds(3600))
                 .build();
 
@@ -85,7 +85,7 @@ class AuthServiceTest {
 
         assertNotNull(response);
         assertEquals("mock-access-token", response.getAccessToken());
-        assertEquals("mock-refresh-token", response.getRefreshToken());
+        assertNotNull(response.getRefreshToken());
         assertEquals("alex@example.com", response.getUser().getEmail());
     }
 
