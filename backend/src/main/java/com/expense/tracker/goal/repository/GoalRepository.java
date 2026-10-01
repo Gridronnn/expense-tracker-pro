@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.goal.repository;
+package com.expense.tracker.goal.repository;
 
 import com.expense.tracker.goal.entity.Goal;
 import org.springframework.data.jpa.repository.JpaRepository;

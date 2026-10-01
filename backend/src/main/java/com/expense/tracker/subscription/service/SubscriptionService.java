@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.subscription.service;
+package com.expense.tracker.subscription.service;
 
 import com.expense.tracker.category.entity.Category;
 import com.expense.tracker.category.repository.CategoryRepository;

@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.auth.repository;
+package com.expense.tracker.auth.repository;
 
 import com.expense.tracker.auth.entity.RefreshToken;
 import com.expense.tracker.user.entity.User;

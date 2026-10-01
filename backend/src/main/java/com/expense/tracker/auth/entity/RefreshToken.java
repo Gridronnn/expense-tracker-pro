@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.auth.entity;
+package com.expense.tracker.auth.entity;
 
 import com.expense.tracker.user.entity.User;
 import jakarta.persistence.*;

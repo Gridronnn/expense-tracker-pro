@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.auth.dto;
+package com.expense.tracker.auth.dto;
 
 import com.expense.tracker.user.dto.UserResponse;
 import lombok.AllArgsConstructor;

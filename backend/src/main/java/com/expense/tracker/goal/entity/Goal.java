@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.goal.entity;
+package com.expense.tracker.goal.entity;
 
 import com.expense.tracker.user.entity.User;
 import jakarta.persistence.*;

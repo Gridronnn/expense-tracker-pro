@@ -1,4 +1,4 @@
-﻿# 🚀 Expense Tracker Pro — Java 21 Spring Boot Backend
+# 🚀 Expense Tracker Pro — Java 21 Spring Boot Backend
 
 Production REST API backend engineered for **Expense Tracker Pro (Aura Finance)**, deployed on **Render** and backed by **Supabase PostgreSQL**.
 

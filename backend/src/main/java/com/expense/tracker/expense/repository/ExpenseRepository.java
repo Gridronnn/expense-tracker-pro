@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.expense.repository;
+package com.expense.tracker.expense.repository;
 
 import com.expense.tracker.expense.entity.Expense;
 import org.springframework.data.domain.Page;

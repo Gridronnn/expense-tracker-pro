@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.subscription.dto;
+package com.expense.tracker.subscription.dto;
 
 import com.expense.tracker.category.dto.CategoryResponse;
 import com.expense.tracker.subscription.entity.Subscription;

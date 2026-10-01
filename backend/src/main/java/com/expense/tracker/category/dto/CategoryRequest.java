@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.category.dto;
+package com.expense.tracker.category.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

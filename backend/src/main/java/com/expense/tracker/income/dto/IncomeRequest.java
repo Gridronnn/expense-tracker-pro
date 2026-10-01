@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.income.dto;
+package com.expense.tracker.income.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

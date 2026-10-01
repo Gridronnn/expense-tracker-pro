@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.dashboard.dto;
+package com.expense.tracker.dashboard.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

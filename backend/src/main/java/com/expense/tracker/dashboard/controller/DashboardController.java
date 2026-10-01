@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.dashboard.controller;
+package com.expense.tracker.dashboard.controller;
 
 import com.expense.tracker.common.response.ApiResponse;
 import com.expense.tracker.dashboard.dto.CategoryBreakdownResponse;

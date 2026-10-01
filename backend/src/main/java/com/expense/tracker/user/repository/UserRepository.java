@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.user.repository;
+package com.expense.tracker.user.repository;
 
 import com.expense.tracker.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

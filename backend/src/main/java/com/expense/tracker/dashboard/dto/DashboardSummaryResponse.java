@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.dashboard.dto;
+package com.expense.tracker.dashboard.dto;
 
 import com.expense.tracker.expense.dto.ExpenseResponse;
 import com.expense.tracker.income.dto.IncomeResponse;

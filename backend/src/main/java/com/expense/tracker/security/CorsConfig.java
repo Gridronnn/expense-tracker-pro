@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.security;
+package com.expense.tracker.security;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

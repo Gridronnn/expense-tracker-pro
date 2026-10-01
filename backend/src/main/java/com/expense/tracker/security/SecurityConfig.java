@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.security;
+package com.expense.tracker.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.common.response;
+package com.expense.tracker.common.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

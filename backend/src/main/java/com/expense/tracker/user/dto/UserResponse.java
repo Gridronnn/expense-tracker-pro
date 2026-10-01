@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.user.dto;
+package com.expense.tracker.user.dto;
 
 import com.expense.tracker.user.entity.User;
 import lombok.AllArgsConstructor;

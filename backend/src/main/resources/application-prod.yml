@@ -1,4 +1,4 @@
-﻿# Production configuration override
+# Production configuration override
 spring:
   jpa:
     show-sql: false

@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.security;
+package com.expense.tracker.security;
 
 import com.expense.tracker.user.entity.User;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.subscription.dto;
+package com.expense.tracker.subscription.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

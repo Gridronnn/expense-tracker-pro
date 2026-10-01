@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.category.repository;
+package com.expense.tracker.category.repository;
 
 import com.expense.tracker.category.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;

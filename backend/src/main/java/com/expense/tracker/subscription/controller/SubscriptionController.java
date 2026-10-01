@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.subscription.controller;
+package com.expense.tracker.subscription.controller;
 
 import com.expense.tracker.common.response.ApiResponse;
 import com.expense.tracker.security.UserDetailsImpl;

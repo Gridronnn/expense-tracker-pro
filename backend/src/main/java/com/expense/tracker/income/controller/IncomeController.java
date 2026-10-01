@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.income.controller;
+package com.expense.tracker.income.controller;
 
 import com.expense.tracker.common.response.ApiResponse;
 import com.expense.tracker.income.dto.IncomeRequest;

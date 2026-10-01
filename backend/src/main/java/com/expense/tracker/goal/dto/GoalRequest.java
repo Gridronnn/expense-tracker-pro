@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.goal.dto;
+package com.expense.tracker.goal.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

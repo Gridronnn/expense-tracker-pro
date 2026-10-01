@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.security;
+package com.expense.tracker.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

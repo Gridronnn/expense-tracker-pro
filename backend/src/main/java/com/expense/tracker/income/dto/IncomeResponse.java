@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.income.dto;
+package com.expense.tracker.income.dto;
 
 import com.expense.tracker.category.dto.CategoryResponse;
 import com.expense.tracker.income.entity.Income;

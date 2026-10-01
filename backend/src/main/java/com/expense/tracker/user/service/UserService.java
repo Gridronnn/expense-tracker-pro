@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.user.service;
+package com.expense.tracker.user.service;
 
 import com.expense.tracker.common.exception.ResourceNotFoundException;
 import com.expense.tracker.user.dto.UserResponse;

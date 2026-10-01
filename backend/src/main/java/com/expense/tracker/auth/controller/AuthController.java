@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.auth.controller;
+package com.expense.tracker.auth.controller;
 
 import com.expense.tracker.auth.dto.AuthResponse;
 import com.expense.tracker.auth.dto.LoginRequest;

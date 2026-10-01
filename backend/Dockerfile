@@ -1,4 +1,4 @@
-﻿# Multi-stage Dockerfile for Java 21 Spring Boot Backend
+# Multi-stage Dockerfile for Java 21 Spring Boot Backend
 # Stage 1: Build JAR using Maven and Eclipse Temurin 21
 FROM maven:3.9.8-eclipse-temurin-21 AS build
 WORKDIR /app

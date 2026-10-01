@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.budget.repository;
+package com.expense.tracker.budget.repository;
 
 import com.expense.tracker.budget.entity.Budget;
 import org.springframework.data.jpa.repository.JpaRepository;

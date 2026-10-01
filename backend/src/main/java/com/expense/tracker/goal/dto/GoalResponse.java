@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.goal.dto;
+package com.expense.tracker.goal.dto;
 
 import com.expense.tracker.goal.entity.Goal;
 import lombok.AllArgsConstructor;

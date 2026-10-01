@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.expense.dto;
+package com.expense.tracker.expense.dto;
 
 import com.expense.tracker.category.dto.CategoryResponse;
 import com.expense.tracker.expense.entity.Expense;

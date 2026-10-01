@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.budget.entity;
+package com.expense.tracker.budget.entity;
 
 import com.expense.tracker.category.entity.Category;
 import com.expense.tracker.user.entity.User;

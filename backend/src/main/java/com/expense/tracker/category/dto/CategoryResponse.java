@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.category.dto;
+package com.expense.tracker.category.dto;
 
 import com.expense.tracker.category.entity.Category;
 import lombok.AllArgsConstructor;

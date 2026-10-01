@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.common.exception;
+package com.expense.tracker.common.exception;
 
 import com.expense.tracker.common.response.ErrorResponse;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.user.entity;
+package com.expense.tracker.user.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

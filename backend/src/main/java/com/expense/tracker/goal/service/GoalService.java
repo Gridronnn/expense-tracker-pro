@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.goal.service;
+package com.expense.tracker.goal.service;
 
 import com.expense.tracker.common.exception.BadRequestException;
 import com.expense.tracker.common.exception.ResourceNotFoundException;

@@ -1,4 +1,4 @@
-﻿package com.expense.tracker.goal.controller;
+package com.expense.tracker.goal.controller;
 
 import com.expense.tracker.common.response.ApiResponse;
 import com.expense.tracker.goal.dto.GoalAmountRequest;
