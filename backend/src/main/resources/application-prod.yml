@@ -1,0 +1,7 @@
+﻿# Production configuration override
+spring:
+  jpa:
+    show-sql: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true

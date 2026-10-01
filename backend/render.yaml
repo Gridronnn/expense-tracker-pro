@@ -1,0 +1,23 @@
+﻿services:
+  - type: web
+    name: expense-tracker-backend
+    runtime: docker
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
+    plan: free
+    region: oregon
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        sync: false # Set to Supabase JDBC URL: jdbc:postgresql://db.YOUR_ID.supabase.co:5432/postgres?sslmode=require
+      - key: SPRING_DATASOURCE_USERNAME
+        value: postgres
+      - key: SPRING_DATASOURCE_PASSWORD
+        sync: false # Set to your Supabase database password
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_ACCESS_EXPIRATION
+        value: 3600000
+      - key: JWT_REFRESH_EXPIRATION
+        value: 604800000
+      - key: FRONTEND_URL
+        value: https://expense-tracker-pro-sigma-sage.vercel.app

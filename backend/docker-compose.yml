@@ -1,0 +1,34 @@
+﻿services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: expense_tracker_db
+    restart: always
+    environment:
+      POSTGRES_DB: expense_tracker
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: expense_tracker_api
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/expense_tracker
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgrespassword
+      JWT_SECRET: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      FRONTEND_URL: http://localhost:5173,https://expense-tracker-pro-sigma-sage.vercel.app
+      PORT: 8080
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:
