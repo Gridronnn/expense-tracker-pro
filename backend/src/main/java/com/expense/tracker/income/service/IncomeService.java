@@ -35,7 +35,10 @@ public class IncomeService {
             LocalDate endDate,
             Pageable pageable
     ) {
-        return incomeRepository.findWithFilters(userId, search, startDate, endDate, pageable)
+        var spec = com.expense.tracker.income.specification.IncomeSpecification.withFilters(
+                userId, search, startDate, endDate
+        );
+        return incomeRepository.findAll(spec, pageable)
                 .map(IncomeResponse::fromEntity);
     }
 

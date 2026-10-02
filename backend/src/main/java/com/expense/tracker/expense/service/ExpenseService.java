@@ -39,7 +39,10 @@ public class ExpenseService {
             BigDecimal maxAmount,
             Pageable pageable
     ) {
-        return expenseRepository.findWithFilters(userId, search, categoryId, startDate, endDate, minAmount, maxAmount, pageable)
+        var spec = com.expense.tracker.expense.specification.ExpenseSpecification.withFilters(
+                userId, search, categoryId, startDate, endDate, minAmount, maxAmount
+        );
+        return expenseRepository.findAll(spec, pageable)
                 .map(ExpenseResponse::fromEntity);
     }
 
