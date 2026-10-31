@@ -1,4 +1,4 @@
-﻿# Logs
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -18,10 +18,11 @@ backend/target/
 backend/*.jar
 backend/.mvn/wrapper/maven-wrapper.jar
 
-# Environment files
+# Environment files (Strict security - blocks all actual env files)
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
+*.env
 
 # IDE & Editor files
 .vscode/*
