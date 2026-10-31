@@ -19,6 +19,8 @@ spring:
       pool-name: ExpenseTrackerHikariCP
       max-lifetime: 1800000
       connection-timeout: 30000
+      data-source-properties:
+        prepareThreshold: 0
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
