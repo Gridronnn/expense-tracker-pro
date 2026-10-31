@@ -32,13 +32,18 @@ public class HealthController {
         status.put("version", "1.0.0");
 
         boolean dbHealthy = false;
-        try (Connection connection = dataSource.getConnection()) {
-            dbHealthy = connection.isValid(2);
+        String dbMessage = "Connected";
+        try (Connection connection = dataSource.getConnection();
+             java.sql.Statement stmt = connection.createStatement();
+             java.sql.ResultSet rs = stmt.executeQuery("SELECT 1")) {
+            dbHealthy = rs.next() && rs.getInt(1) == 1;
         } catch (Exception e) {
             log.warn("Database health check ping failed: {}", e.getMessage());
+            dbMessage = e.getClass().getSimpleName() + ": " + e.getMessage();
         }
 
         status.put("database", dbHealthy ? "UP" : "DOWN");
+        status.put("databaseDetail", dbMessage);
         status.put("status", dbHealthy ? "UP" : "DEGRADED");
 
         HttpStatus httpStatus = dbHealthy ? HttpStatus.OK : HttpStatus.SERVICE_UNAVAILABLE;
